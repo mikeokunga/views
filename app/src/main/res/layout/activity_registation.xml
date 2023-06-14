@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/bg5"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="274dp"
+    android:layout_height="50dp"
+    android:ems="10"
+    android:background="#00695C"
+    android:textColor="#CDDC39"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:layout_marginLeft="30sp"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30sp"
+    android:text="SIGN UP PAGE" />
+
+<EditText
+    android:id="@+id/EdtsignupEmail"
+    android:layout_width="274dp"
+    android:layout_height="50dp"
+    android:ems="10"
+    android:layout_marginLeft="30sp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30sp"
+    android:hint="Enter Email Address"
+    android:textSize="20sp"
+    android:textColor="#11FF00"
+    android:backgroundTint="#03A9F4"
+    android:textColorHint="#FF9800"
+    android:inputType="textEmailAddress"
+    tools:layout_editor_absoluteX="36dp"
+    tools:layout_editor_absoluteY="173dp" />
+
+<EditText
+    android:id="@+id/EdtsignupPassword"
+    android:layout_width="274dp"
+    android:layout_height="50dp"
+    android:ems="10"
+    android:layout_marginLeft="30sp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30sp"
+    android:hint="Enter password"
+    android:textSize="20sp"
+    android:textColor="#2CFF07"
+    android:backgroundTint="#03A9F4"
+    android:textColorHint="#FF9800"
+    android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/EdtsignupconfirmPassword"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30sp"
+        android:hint="Confirm password"
+        android:textSize="20sp"
+        android:textColor="#2CFF07"
+        android:backgroundTint="#03A9F4"
+        android:textColorHint="#FF9800"
+        android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/BtnRegister"
+    android:layout_width="274dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="30sp"
+    android:backgroundTint="#3F51B5"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="30sp"
+    android:text="Click to SIGN UP"
+    android:textSize="18sp"
+    android:textColor="#FF9800"/>
+
+<TextView
+    android:id="@+id/TvSignupnextpage"
+    android:layout_width="274dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="30sp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:textColor="#03A9F4"
+    android:textSize="20dp"
+    android:layout_marginBottom="30sp"
+    android:text="Have an account. Click to
+ Login." />
+</LinearLayout>
